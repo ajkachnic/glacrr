@@ -1,4 +1,5 @@
 <?php
+echo "Commit";
 include('classes/DB.php');
 if (isset($_POST['createaccount'])) {
         $username = $_POST['username'];
